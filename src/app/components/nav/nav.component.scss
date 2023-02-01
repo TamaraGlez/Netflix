@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 26px;
+
+  &-ul {
+    display: flex;
+    margin: 10px;
+
+  &_img{
+    width: 100px;
+  }
+
+  &_inicio {
+    font-size: 26px;
+    padding-right: 20px;
+  }
+
+  &_buscar {
+    font-size: 26px;
+  }
+
+  }
+}
