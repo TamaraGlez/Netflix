@@ -1,0 +1,22 @@
+.box-films {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+
+  &_film {
+    display: flex;
+    padding: 5px;
+    width: 195px;
+    height: 110px;
+  }
+
+  &_img {
+    width: 90px;
+    height: 192px;
+  }
+
+
+}
