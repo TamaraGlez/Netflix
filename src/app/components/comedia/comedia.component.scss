@@ -1,23 +1,25 @@
-.comedie {
+.comedia {
   display: flex;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
 
   &-box {
     display: flex;
-    flex-direction: column;
     padding: 5px;
+    width: 195px;
+    height: 110px;
 
-
+    &-img {
+      width: 90px;
+      height: 192px;
+    }
 
   }
 
-
-  // &-h2{
-
-  // }
-  // &-img {
-
-  // }
+  &-h1 {
+    width: 100%;
+  }
 }

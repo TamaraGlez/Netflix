@@ -9,16 +9,17 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding-top: 26px;
   padding-bottom: 26px;
+  align-items: center;
+  justify-content: space-between;
 
   &-ul {
     display: flex;
     margin: 10px;
 
   &_img{
-    width: 100px;
+    width: 150px;
   }
 
   &_inicio {
@@ -32,3 +33,11 @@
 
   }
 }
+//   @media (min-width: 390px) {
+//     .nav {
+//       display: flex;
+//       flex-direction: column;
+//       flex-wrap: wrap;
+//       justify-items: center;
+//     }
+//  }

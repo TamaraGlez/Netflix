@@ -1,0 +1,10 @@
+<div class="heroine" >
+  <h1 class="heroine-h1" >LOS 5 MÁS POPPULARES HOY</h1>
+  <div class="heroine-box" *ngFor = "let element of heroineFilms " >
+    <p class="heroine-box_num" >{{element.position}}</p>
+    <img class="heroine-box_img" src={{element.image}}/>
+
+  </div>
+</div>
+
+<!-- SI YO QUIERO PINTAR SÓLO 5 -->
