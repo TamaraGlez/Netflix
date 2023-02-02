@@ -1,3 +1,4 @@
+import { IHeroinecls } from './../../models.interfaz/iheroinecls';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class HeroineComponent implements OnInit {
 
-  heroineFilms = [
+  heroineFilms: IHeroinecls [] = [
 
     {
 

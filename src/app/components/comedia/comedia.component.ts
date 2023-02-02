@@ -1,3 +1,4 @@
+import { IComedia } from './../../models.interfaz/icomedia';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComediaComponent implements OnInit {
 
-  comedyFilms = [
+  public comedyFilms: IComedia [] = [
 
     {
 
