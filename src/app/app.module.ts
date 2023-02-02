@@ -7,7 +7,6 @@ import { NavComponent } from './components/nav/nav.component';
 import { HeroineComponent } from './components/heroine/heroine.component';
 import { FilmsComponent } from './components/films/films.component';
 import { ComediaComponent } from './components/comedia/comedia.component';
-import { DramasComponent } from './components/dramas/dramas.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { DramasComponent } from './components/dramas/dramas.component';
     HeroineComponent,
     FilmsComponent,
     ComediaComponent,
-    DramasComponent
   ],
   imports: [
     BrowserModule,

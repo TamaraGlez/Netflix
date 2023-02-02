@@ -80,16 +80,6 @@ export class ComediaComponent implements OnInit {
 
     },
 
-    {
-
-      title: "Ted 2",
-      image: "../../assets/Comedia/ted2.webp"
-
-    },
-
-
-
-
 
   ]
 
